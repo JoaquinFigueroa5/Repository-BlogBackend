@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "6821519197babe4901516b49"
+  },
+  "titular": "Alebonita",
+  "comentario": "Eres el mas chiludo 😈",
+  "post": {
+    "$oid": "68214f871ff8ba0d37e59bee"
+  },
+  "createdAt": {
+    "$date": "2025-05-12T01:40:33.933Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T01:40:33.933Z"
+  }
+}]

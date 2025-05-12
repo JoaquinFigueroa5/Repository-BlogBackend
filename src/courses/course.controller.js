@@ -6,7 +6,7 @@ export const createCourses = async() => {
 
         if(existRoles.length < 3){
             if(!existRoles.some(course => course.course === 'Tecnologia' )){
-                await new Course({ course: 'Tecnologia'}).save();
+                await new Course({ course: 'Tecnologia' }).save();
             }
             if(!existRoles.some(course => course.course === 'Taller' )){
                 await new Course({ course: 'Taller'}).save();

@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "68214f871ff8ba0d37e59bee"
+  },
+  "titulo": "Negros de mierda",
+  "course": "Taller",
+  "texto": "que te importa",
+  "comentarios": [
+    {
+      "$oid": "6821519197babe4901516b49"
+    }
+  ],
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-12T01:31:51.254Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-12T01:40:33.939Z"
+  }
+}]
