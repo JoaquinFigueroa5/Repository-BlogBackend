@@ -6,13 +6,16 @@ export const updateComent = async(req, res) => {
         const { id } = req.params;
         const { titular, comentario, post } = req.body;
 
+        const postValidate = await Publication.findById(post);
+
         const publi = await Publication.findById(id);
-        if (!publi) {
+        if (!publi || !postValidate) {
             return res.status(404).json({
                 success: false,
                 msg: "Publicación no encontrada"
             });
         }
+
 
         const newComment = await Comentario.create({
             titular,
