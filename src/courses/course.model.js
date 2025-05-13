@@ -10,6 +10,10 @@ const CourseSchema = Schema({
     },
     image: {
         type: String
+    },
+    state: {
+        type: Boolean,
+        default: true
     }
 });
 

@@ -8,6 +8,7 @@ import { dbConnection } from './mongo.js';
 import limiter from '../src/middlewares/validar-cant-peticiones.js';
 import publicactionRouter from '../src/publication/publication-routes.js';
 import comentarRouter from '../src/comentarios/comentarios-routes.js';
+import courseRouter from '../src/courses/course.routes.js'
 import { createCourses } from '../src/courses/course.controller.js';
 
 const middlewares = (app) => {
@@ -19,8 +20,9 @@ const middlewares = (app) => {
     app.use(limiter);
 }
 const routes = (app) => {
-    app.use('/gestorOpiniones/v1/publications', publicactionRouter),
-    app.use('/gestorOpiniones/v1/publications/comment', comentarRouter)
+    app.use('/blog/v1/publications', publicactionRouter),
+    app.use('/blog/v1/publications/comment', comentarRouter),
+    app.use('/blog/v1/courses', courseRouter)
 }
 
 const conectarDB = async() => {
