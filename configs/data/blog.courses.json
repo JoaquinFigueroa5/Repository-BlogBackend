@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "6823c505222dd9bf6e3ca45f"
+  },
+  "course": "Tecnologia",
+  "description": "Diseño y desarrollo de aplicaciones con Node.js y React.js bajo el patrón MVC, integrando bases de datos NoSQL locales o remotas, y emplear herramientas de inteligencia artificial para optimizar el desarrollo de software, garantizando soluciones tecnológicas efectivas, responsables y éticas que prioricen la privacidad y seguridad de la información en entornos empresariales.",
+  "image": "https://media.giphy.com/media/BDfPH990CCYA0IR4Pk/giphy.gif",
+  "state": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6823c505222dd9bf6e3ca461"
+  },
+  "course": "Taller",
+  "description": "Diseño y desarrollo de aplicaciones con Node.js y React.js bajo el patrón MVC, integrando bases de datos NoSQL locales o remotas, y emplear herramientas de inteligencia artificial para optimizar el desarrollo de software, garantizando soluciones tecnológicas efectivas, responsables y éticas que prioricen la privacidad y seguridad de la información en entornos empresariales.",
+  "image": "https://media.giphy.com/media/F9p9Ifz2zxk2JY1YAs/giphy.gif",
+  "state": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6823c505222dd9bf6e3ca463"
+  },
+  "course": "Practica",
+  "description": "Diseño y desarrollo de aplicaciones con Node.js y React.js bajo el patrón MVC, integrando bases de datos NoSQL locales o remotas, y emplear herramientas de inteligencia artificial para optimizar el desarrollo de software, garantizando soluciones tecnológicas efectivas, responsables y éticas que prioricen la privacidad y seguridad de la información en entornos empresariales.",
+  "image": "https://media.giphy.com/media/QA1quSM6AFRYvI70cU/giphy.gif",
+  "state": true,
+  "__v": 0
+}]

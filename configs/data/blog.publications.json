@@ -1,20 +1,48 @@
 [{
   "_id": {
-    "$oid": "68214f871ff8ba0d37e59bee"
+    "$oid": "6823aa16ea100ddd4f9de15f"
   },
-  "titulo": "Negros de mierda",
-  "course": "Taller",
-  "texto": "que te importa",
-  "comentarios": [
-    {
-      "$oid": "6821519197babe4901516b49"
-    }
-  ],
+  "titulo": "Los amo",
+  "course": "Tecnologia",
+  "texto": "Mentira no los amo",
+  "comentarios": [],
   "state": true,
   "createdAt": {
-    "$date": "2025-05-12T01:31:51.254Z"
+    "$date": "2025-05-13T20:22:46.924Z"
   },
   "updatedAt": {
-    "$date": "2025-05-12T01:40:33.939Z"
+    "$date": "2025-05-13T20:22:46.924Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6823aa23ea100ddd4f9de161"
+  },
+  "titulo": "Bañen a werner",
+  "course": "Taller",
+  "texto": "Apesta",
+  "comentarios": [],
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-13T20:22:59.245Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-13T20:22:59.245Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6823cc54222dd9bf6e3ca5af"
+  },
+  "titulo": "Puntos extra va profe;D",
+  "course": "Taller",
+  "texto": "Profe 100 puntos",
+  "comentarios": [],
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-13T22:48:52.887Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-13T22:48:52.887Z"
   }
 }]

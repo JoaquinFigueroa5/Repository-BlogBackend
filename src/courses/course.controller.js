@@ -9,21 +9,21 @@ export const createCourses = async() => {
                 await new Course({ 
                     course: 'Tecnologia',
                     description: 'Diseño y desarrollo de aplicaciones con Node.js y React.js bajo el patrón MVC, integrando bases de datos NoSQL locales o remotas, y emplear herramientas de inteligencia artificial para optimizar el desarrollo de software, garantizando soluciones tecnológicas efectivas, responsables y éticas que prioricen la privacidad y seguridad de la información en entornos empresariales.',
-                    image: 'https://kinal.academy/pluginfile.php/1144/course/overviewfiles/Tecnolog%C3%ADa%20III%20IN6CV.gif'
+                    image: 'https://media.giphy.com/media/BDfPH990CCYA0IR4Pk/giphy.gif'
                 }).save();
             }
             if(!existRoles.some(course => course.course === 'Taller' )){
                 await new Course({ 
                     course: 'Taller',
                     description: 'Diseño y desarrollo de aplicaciones con Node.js y React.js bajo el patrón MVC, integrando bases de datos NoSQL locales o remotas, y emplear herramientas de inteligencia artificial para optimizar el desarrollo de software, garantizando soluciones tecnológicas efectivas, responsables y éticas que prioricen la privacidad y seguridad de la información en entornos empresariales.',
-                    image: 'https://kinal.academy/pluginfile.php/1145/course/overviewfiles/Taller%20III%20IN6CV.gif'
+                    image: 'https://media.giphy.com/media/F9p9Ifz2zxk2JY1YAs/giphy.gif'
                 }).save();
             }
             if(!existRoles.some(course => course.course === 'Practica' )){
                 await new Course({ 
                     course: 'Practica',
                     description: 'Diseño y desarrollo de aplicaciones con Node.js y React.js bajo el patrón MVC, integrando bases de datos NoSQL locales o remotas, y emplear herramientas de inteligencia artificial para optimizar el desarrollo de software, garantizando soluciones tecnológicas efectivas, responsables y éticas que prioricen la privacidad y seguridad de la información en entornos empresariales.',
-                    image: 'https://kinal.academy/pluginfile.php/1146/course/overviewfiles/Pr%C3%A1ctica%20Supervisada%20IN6CV.gif'
+                    image: 'https://media.giphy.com/media/QA1quSM6AFRYvI70cU/giphy.gif'
                 }).save();
             }
         }
