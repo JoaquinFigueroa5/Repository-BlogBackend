@@ -37,6 +37,7 @@ export const getPublications = async(req = request, res = response) => {
             Publication.find(query)
                 .skip(Number(desde))
                 .limit(Number(limit))
+                .populate('comentarios')
         ])
 
         return res.status(200).json({

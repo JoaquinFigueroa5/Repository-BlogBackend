@@ -8,7 +8,7 @@ const PublicationSchema = Schema({
     },
     course: {
         type: String,
-        enum: ['Taller', 'Tecnologia', 'Practica Supervisada'],
+        enum: ['Taller', 'Tecnologia', 'Practica'],
         required: [true, 'El curso es requerido']
     },
     texto: {

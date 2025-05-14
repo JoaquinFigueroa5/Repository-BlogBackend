@@ -99,3 +99,31 @@ export const deleteComment = async(req, res) => {
         })
     }
 }
+
+export const getComments = async(req, res) => {
+    const query = { state: true };
+
+    try {
+        const [total, comments] = await Promise.all([
+            Comentario.countDocuments(query),
+            Comentario.find(query).sort({ createdAt: -1 })
+            .populate({
+                path: 'post'
+            })
+
+        ])
+
+        return res.status(200).json({
+            success: true,
+            msg: 'Comentarios obtenidas con exito',
+            total,
+            comments
+        })
+    } catch (error) {
+        return res.status(500).json({
+            success: false,
+            msg: 'Error al obtener comentarios',
+            error: error.message || error
+        })
+    }
+}

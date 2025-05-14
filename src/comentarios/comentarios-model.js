@@ -11,8 +11,12 @@ const ComentarioSchema = Schema({
     },
     post: {
         type: Schema.Types.ObjectId,
-        ref: "Publicacion",
+        ref: "Publication",
         required: true
+    },
+    state: {
+        type: Boolean,
+        default: true
     }
 },{
     timestamps: true,
