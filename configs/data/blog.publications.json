@@ -5,13 +5,20 @@
   "titulo": "Los amo",
   "course": "Tecnologia",
   "texto": "Mentira no los amo",
-  "comentarios": [],
+  "comentarios": [
+    {
+      "$oid": "68250dc4e80cf9fadb987e9b"
+    },
+    {
+      "$oid": "68251b50a1c74992dde3ed2b"
+    }
+  ],
   "state": true,
   "createdAt": {
     "$date": "2025-05-13T20:22:46.924Z"
   },
   "updatedAt": {
-    "$date": "2025-05-13T20:22:46.924Z"
+    "$date": "2025-05-14T22:38:08.795Z"
   }
 },
 {
@@ -27,7 +34,7 @@
     "$date": "2025-05-13T20:22:59.245Z"
   },
   "updatedAt": {
-    "$date": "2025-05-13T20:22:59.245Z"
+    "$date": "2025-05-14T23:20:56.937Z"
   }
 },
 {
@@ -43,6 +50,22 @@
     "$date": "2025-05-13T22:48:52.887Z"
   },
   "updatedAt": {
-    "$date": "2025-05-13T22:48:52.887Z"
+    "$date": "2025-05-14T21:35:05.912Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6824e918b1232c44b67a17cd"
+  },
+  "titulo": "Duerman a xibalba",
+  "course": "Practica",
+  "texto": "Rosado",
+  "comentarios": [],
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-14T19:03:52.795Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-14T20:05:23.773Z"
   }
 }]
