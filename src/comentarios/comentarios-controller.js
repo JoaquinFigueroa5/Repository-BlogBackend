@@ -31,8 +31,7 @@ export const updateComent = async(req, res) => {
         
         const savedPubli = await Publication.findById(id)
             .populate({
-                path: "comentarios",
-                select: "titular comentario -_id"
+                path: "comentarios"
             })
 
         res.status(200).json({
