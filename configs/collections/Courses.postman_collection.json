@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "3ca5ea5c-72d3-41b2-a5a7-233510cd2293",
+		"name": "Courses",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41660832"
+	},
+	"item": [
+		{
+			"name": "getCourses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3015/blog/v1/courses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3015",
+					"path": [
+						"blog",
+						"v1",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

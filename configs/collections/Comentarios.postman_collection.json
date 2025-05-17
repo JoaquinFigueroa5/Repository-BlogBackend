@@ -13,7 +13,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"titular\": \"Alebonita\",\r\n    \"comentario\": \"Eres el mas chiludo 😈\",\r\n    \"post\": \"68214f871ff8ba0d37e59bee\"\r\n}",
+					"raw": "{\r\n    \"titular\": \"Ale\",\r\n    \"comentario\": \"Te amo\",\r\n    \"post\": \"6823cc54222dd9bf6e3ca5af\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -21,18 +21,18 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3015/gestorOpiniones/v1/publications/comment/68214f871ff8ba0d37e59bee",
+					"raw": "http://localhost:3015/blog/v1/publications/comment/6823cc54222dd9bf6e3ca5af",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "3015",
 					"path": [
-						"gestorOpiniones",
+						"blog",
 						"v1",
 						"publications",
 						"comment",
-						"68214f871ff8ba0d37e59bee"
+						"6823cc54222dd9bf6e3ca5af"
 					]
 				}
 			},
@@ -53,18 +53,74 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3015/gestorOpiniones/v1/publications/comment/68214f921ff8ba0d37e59bf1",
+					"raw": "http://localhost:3015/blog/v1/publications/comment/68258a65093eadf80f2fab92",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "3015",
 					"path": [
-						"gestorOpiniones",
+						"blog",
 						"v1",
 						"publications",
 						"comment",
-						"68214f921ff8ba0d37e59bf1"
+						"68258a65093eadf80f2fab92"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getComments",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titular\": \"Saul\",\r\n    \"comentario\": \"Te quiero mucho bro 😈\",\r\n    \"post\": \"6823aa16ea100ddd4f9de15f\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3015/blog/v1/publications/comment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3015",
+					"path": [
+						"blog",
+						"v1",
+						"publications",
+						"comment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateComment",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3015/blog/v1/publications/comment/68258a65093eadf80f2fab92",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3015",
+					"path": [
+						"blog",
+						"v1",
+						"publications",
+						"comment",
+						"68258a65093eadf80f2fab92"
 					]
 				}
 			},

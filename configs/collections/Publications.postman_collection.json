@@ -24,14 +24,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3015/gestorOpiniones/v1/publications",
+					"raw": "http://localhost:3015/blog/v1/publications",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "3015",
 					"path": [
-						"gestorOpiniones",
+						"blog",
 						"v1",
 						"publications"
 					]
@@ -46,7 +46,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"titulo\": \"Negros de mierda\",\r\n    \"course\": \"Taller\",\r\n    \"texto\": \"que te importa\",\r\n    \"comentarios\": []\r\n}",
+					"raw": "{\r\n    \"titulo\": \"Duerman a xibalba\",\r\n    \"course\": \"Practica\",\r\n    \"texto\": \"Rosado\",\r\n    \"comentarios\": []\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -54,14 +54,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3015/gestorOpiniones/v1/publications/submit",
+					"raw": "http://localhost:3015/blog/v1/publications/submit",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "3015",
 					"path": [
-						"gestorOpiniones",
+						"blog",
 						"v1",
 						"publications",
 						"submit"
@@ -76,17 +76,17 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3015/gestorOpiniones/v1/publications/68212982030c96b4ffe33a33",
+					"raw": "http://localhost:3015/blog/v1/publications/6824f84060519f4b47ae4929",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "3015",
 					"path": [
-						"gestorOpiniones",
+						"blog",
 						"v1",
 						"publications",
-						"68212982030c96b4ffe33a33"
+						"6824f84060519f4b47ae4929"
 					]
 				}
 			},
