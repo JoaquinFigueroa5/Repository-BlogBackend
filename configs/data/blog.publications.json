@@ -28,13 +28,17 @@
   "titulo": "Bañen a werner",
   "course": "Taller",
   "texto": "Apesta",
-  "comentarios": [],
+  "comentarios": [
+    {
+      "$oid": "6826c366d5b3af4ea5946df4"
+    }
+  ],
   "state": true,
   "createdAt": {
     "$date": "2025-05-13T20:22:59.245Z"
   },
   "updatedAt": {
-    "$date": "2025-05-14T23:20:56.937Z"
+    "$date": "2025-05-16T04:47:34.140Z"
   }
 },
 {
@@ -44,13 +48,20 @@
   "titulo": "Puntos extra va profe;D",
   "course": "Taller",
   "texto": "Profe 100 puntos",
-  "comentarios": [],
+  "comentarios": [
+    {
+      "$oid": "6825700d3a05f93cedeaa5f5"
+    },
+    {
+      "$oid": "6825748a3a05f93cedeaa652"
+    }
+  ],
   "state": true,
   "createdAt": {
     "$date": "2025-05-13T22:48:52.887Z"
   },
   "updatedAt": {
-    "$date": "2025-05-14T21:35:05.912Z"
+    "$date": "2025-05-15T06:30:46.670Z"
   }
 },
 {
@@ -60,12 +71,19 @@
   "titulo": "Duerman a xibalba",
   "course": "Practica",
   "texto": "Rosado",
-  "comentarios": [],
+  "comentarios": [
+    {
+      "$oid": "682583a9d5394ed033618121"
+    },
+    {
+      "$oid": "6827ff27810f7899d6fa3d98"
+    }
+  ],
   "state": true,
   "createdAt": {
     "$date": "2025-05-14T19:03:52.795Z"
   },
   "updatedAt": {
-    "$date": "2025-05-14T20:05:23.773Z"
+    "$date": "2025-05-17T03:39:25.446Z"
   }
 }]
