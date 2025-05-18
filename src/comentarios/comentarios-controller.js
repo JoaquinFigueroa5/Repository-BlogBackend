@@ -100,12 +100,15 @@ export const deleteComment = async(req, res) => {
 }
 
 export const getComments = async(req, res) => {
+    const {limit = 5, since =  0} = req.query;
     const query = { state: true };
 
     try {
         const [total, comments] = await Promise.all([
             Comentario.countDocuments(query),
             Comentario.find(query).sort({ createdAt: -1 })
+            .skip(Number(since))
+            .limit(Number(limit))
             .populate({
                 path: 'post'
             })
