@@ -3,7 +3,7 @@ import {Schema, model} from 'mongoose';
 const ComentarioSchema = Schema({
     titular: {
         type: String,
-        required: true
+        default: 'Anounymous'
     },
     comentario: {
         type: String,
@@ -22,5 +22,12 @@ const ComentarioSchema = Schema({
     timestamps: true,
     versionKey: false
 })
+
+ComentarioSchema.pre('save', function (next) {
+    if (!this.titular || this.titular.trim() === '') {
+        this.titular = 'Anonymous';
+    }
+    next();
+});
 
 export default model('Comentario', ComentarioSchema)
